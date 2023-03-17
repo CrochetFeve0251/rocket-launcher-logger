@@ -1,0 +1,27 @@
+{
+  "name": "crochetfeve0251/rocket-launcher-logger",
+  "description": "Core from Rocket launcher",
+  "keywords": [
+    "wordpress"
+  ],
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "CrochetFeve0251"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RocketLauncherLogger\\": "inc/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "RocketLauncherLogger\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "crochetfeve0251/rocket-launcher-core": "0.0.*",
+    "monolog/monolog": "^1.0 || ^2.0"
+  }
+}
