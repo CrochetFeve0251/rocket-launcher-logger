@@ -54,9 +54,9 @@ class MonologHandler implements HandlerInterface
         if ( $log_debug_interval ) {
             // Adds an optional logs rotator depending on a constant value - WP_ROCKET_DEBUG_INTERVAL (interval by minutes).
             $rotator = str_pad( round( ( strtotime( 'now' ) - strtotime( 'today midnight' ) ) / 60 / $log_debug_interval ), 4, '0', STR_PAD_LEFT );
-            return WP_CONTENT_DIR . '/wp-rocket-config/' . $rotator . '-' . $log_file_name;
+            return WP_CONTENT_DIR . '/logs/' . $rotator . '-' . $log_file_name;
         } else {
-            return WP_CONTENT_DIR . '/wp-rocket-config/' . $log_file_name;
+            return WP_CONTENT_DIR . '/logs/' . $log_file_name;
         }
     }
 
