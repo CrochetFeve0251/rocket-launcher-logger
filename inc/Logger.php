@@ -1,5 +1,5 @@
 <?php
-namespace RocketLauncherLogger;
+namespace LaunchpadLogger;
 
 class Logger implements LoggerInterface
 {

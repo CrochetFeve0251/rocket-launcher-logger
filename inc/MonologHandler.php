@@ -1,6 +1,6 @@
 <?php
 
-namespace RocketLauncherLogger;
+namespace LaunchpadLogger;
 
 use Monolog\Formatter\HtmlFormatter;
 use Monolog\Handler\StreamHandler;

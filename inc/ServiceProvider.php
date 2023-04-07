@@ -1,6 +1,6 @@
 <?php
 
-namespace RocketLauncherLogger;
+namespace LaunchpadLogger;
 
 use League\Container\Definition\DefinitionInterface;
 use RocketLauncherCore\Container\AbstractServiceProvider;

@@ -1,6 +1,6 @@
 {
-  "name": "crochetfeve0251/rocket-launcher-logger",
-  "description": "Logger from Rocket launcher",
+  "name": "wp-launchpad/logger",
+  "description": "Logger from Launchpad",
   "keywords": [
     "wordpress"
   ],
@@ -12,16 +12,16 @@
   ],
   "autoload": {
     "psr-4": {
-      "RocketLauncherLogger\\": "inc/"
+      "LaunchpadLogger\\": "inc/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "RocketLauncherLogger\\Tests\\": "tests/"
+      "LaunchpadLogger\\Tests\\": "tests/"
     }
   },
   "require": {
-    "crochetfeve0251/rocket-launcher-core": "0.0.*",
+    "wp-launchpad/core": "0.0.*",
     "monolog/monolog": "^1.0 || ^2.0"
   }
 }

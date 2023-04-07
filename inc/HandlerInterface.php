@@ -1,6 +1,6 @@
 <?php
 
-namespace RocketLauncherLogger;
+namespace LaunchpadLogger;
 
 interface HandlerInterface {
 	/**
