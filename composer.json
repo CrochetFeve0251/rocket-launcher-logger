@@ -21,7 +21,7 @@
     }
   },
   "require": {
-    "wp-launchpad/core": "0.0.*",
+    "wp-launchpad/core": "0.3.*",
     "monolog/monolog": "^1.0 || ^2.0"
   }
 }
